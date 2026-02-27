@@ -125,7 +125,7 @@ export const TECHNICAL_CONFIG = {
   projectId: "A1032",
 
   urls: {
-    production: "https://example.com",
+    production: "https://offers.see-villa.eu",
     staging: "",
   },
 
@@ -134,10 +134,10 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "noreply@example.com",
+    from: "noreply@see-villa.eu",
     replyTo: "kontakt@see-villa.at",
     transactional: "see-villa-tacoli@updates.alpinads.app",
-    assetsBaseUrl: "https://example.com",
+    assetsBaseUrl: "https://offers.see-villa.eu",
   },
 
   credits: {
@@ -150,7 +150,7 @@ export const TECHNICAL_CONFIG = {
 // SEO_CONFIG - Metadata for all languages
 // ============================================
 export const SEO_CONFIG = {
-  baseUrl: "https://example.com",
+  baseUrl: "https://offers.see-villa.eu",
   ogImage: "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
 
   home: {
