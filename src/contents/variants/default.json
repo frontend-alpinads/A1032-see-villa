@@ -1,30 +1,54 @@
 {
   "$schema": "../variant-spec.schema.json",
   "sectionVariants": [
-    { "hero": "v12" },
-    { "about": "v4" },
-    { "features": "v1" },
-    { "offers": "v1" },
-    { "rooms": "v6" },
-    { "gallery": "v5" },
-    { "testimonials": "v6" },
-    { "faqs": "v1" },
-    { "enquiry": "v1" },
-    { "footer": "v2" }
+    {
+      "hero": "v12"
+    },
+    {
+      "about": "v3"
+    },
+    {
+      "features": "v2"
+    },
+    {
+      "offers": "v1"
+    },
+    {
+      "rooms": "v6"
+    },
+    {
+      "gallery": "v5"
+    },
+    {
+      "testimonials": "v6"
+    },
+    {
+      "faqs": "v1"
+    },
+    {
+      "enquiry": "v1"
+    },
+    {
+      "footer": "v2"
+    }
   ],
   "content": {
     "hero": {
       "title": {
-        "de": "Urlaub in Südtirol",
-        "en": "Holiday in South Tyrol",
-        "it": "Vacanza in Alto Adige"
+        "de": "Das Schlosshotel am Millstätter See",
+        "en": "The Castle Hotel on Lake Millstatt",
+        "it": "Lo Schlosshotel sul Lago di Millstatt"
       },
       "subtitle": {
-        "de": "Willkommen in unserem Hotel in den Dolomiten. Genießen Sie atemberaubende Berglandschaften, erstklassigen Service und unvergessliche Momente der Entspannung.",
-        "en": "Welcome to our hotel in the Dolomites. Enjoy breathtaking mountain landscapes, first-class service and unforgettable moments of relaxation.",
-        "it": "Benvenuti nel nostro hotel nelle Dolomiti. Godetevi paesaggi montani mozzafiato, servizio di prima classe e momenti di relax indimenticabili."
+        "de": "Entschleunigung, Inspiration und Kulinarik seit 1884 – Ihr 4-Sterne-Refugium in Kärnten",
+        "en": "Relaxation, inspiration and fine dining since 1884 – your 4-star retreat in Carinthia",
+        "it": "Relax, ispirazione e cucina raffinata dal 1884 – il vostro rifugio a 4 stelle in Carinzia"
       },
-      "images": ["/placeholder.svg", "/placeholder.svg", "/placeholder.svg"],
+      "images": [
+        "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+        "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+        "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg"
+      ],
       "bookingForm": {
         "arrivalDeparture": {
           "de": "Datum wählen",
@@ -79,90 +103,126 @@
     },
     "about": {
       "badge": {
-        "de": "Willkommen",
-        "en": "Welcome",
-        "it": "Benvenuti"
+        "de": "Einfach gut seit 1884",
+        "en": "Simply good since 1884",
+        "it": "Semplicemente buono dal 1884"
       },
       "title": {
-        "de": "Unser Hotel",
-        "en": "Our Hotel",
-        "it": "Il Nostro Hotel"
+        "de": "Ruheoase am Millstätter See mit aristokratischem Glanz",
+        "en": "A peaceful retreat on Lake Millstatt with aristocratic splendour",
+        "it": "Un'oasi di pace sul Lago di Millstatt con splendore aristocratico"
       },
       "description": {
-        "de": "Unser Hotel verbindet Tradition mit modernem Komfort. Eingebettet in die malerische Landschaft Südtirols, bieten wir Ihnen eine Oase der Ruhe und Entspannung. Genießen Sie großzügige Räumlichkeiten, erstklassigen Service und eine herzliche Atmosphäre.",
-        "en": "Our hotel combines tradition with modern comfort. Nestled in the picturesque landscape of South Tyrol, we offer you an oasis of peace and relaxation. Enjoy spacious rooms, first-class service and a warm atmosphere.",
-        "it": "Il nostro hotel unisce tradizione e comfort moderno. Immerso nel pittoresco paesaggio dell'Alto Adige, vi offriamo un'oasi di pace e relax. Godetevi spazi ampi, servizio di prima classe e un'atmosfera accogliente."
+        "de": "Gönnen Sie sich Ruhe und eine Auszeit vom stresserfüllten Alltag und lassen Sie sich mit feinsten kulinarischen Köstlichkeiten aus der Region, modern interpretiert durch Chefkoch Christian Unterzaucher, in unserem Falstaff-ausgezeichneten Restaurant verwöhnen. Unser 4-Sterne Haus ist die Ruheoase am Millstätter See, die mit einer ruhigen und traumhaft arrangierten Parkanlage mit 200 m Uferlänge und einer großen Liegewiese genügend Raum zur Rückkehr zu sich selbst bietet. Spüren Sie den aristokratischen Glanz der Vergangenheit in unserem historischen Haus, verbunden mit dem Luxus der Gegenwart.",
+        "en": "Treat yourself to peace and a break from the stresses of everyday life and be pampered with the finest regional culinary delights, modernly interpreted by head chef Christian Unterzaucher, in our Falstaff-awarded restaurant. Our 4-star hotel is the perfect retreat on Lake Millstatt, offering a tranquil park with 200 m of lakeside and a large sun lawn for your personal renewal. Feel the aristocratic splendour of the past in our historic building, combined with the luxury of the present.",
+        "it": "Concedetevi relax e una pausa dallo stress quotidiano e lasciatevi viziare con le più raffinate delizie culinarie della regione, reinterpretate in chiave moderna dallo chef Christian Unterzaucher, nel nostro ristorante premiato dal Falstaff. Il nostro hotel a 4 stelle è l'oasi di pace sul Lago di Millstatt, con un parco tranquillo e 200 m di riva e un ampio prato per il vostro relax. Sentite lo splendore aristocratico del passato nella nostra storica dimora, unito al lusso del presente."
       },
       "images": [
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg",
-        "/placeholder.svg"
+        "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+        "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+        "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg"
       ]
     },
     "features": {
       "badge": {
-        "de": "Ihre Urlaubs-Highlights",
-        "en": "Your Holiday Highlights",
-        "it": "I Vostri Lussi"
+        "de": "Unsere Highlights",
+        "en": "Our Highlights",
+        "it": "I Nostri Punti di Forza"
       },
       "title": {
-        "de": "Hochwertig, persönlich, natürlich",
-        "en": "High-quality, personalised, natural",
-        "it": "Qualità, intimità, naturalità"
+        "de": "Was die See-Villa so besonders macht",
+        "en": "What makes the See Villa so special",
+        "it": "Cosa rende la See Villa così speciale"
       },
       "description": {
-        "de": "Erleben Sie unvergessliche Momente in Südtirol. Wandern, Skifahren, Wellness und kulinarische Genüsse erwarten Sie in einer der schönsten Regionen der Alpen.",
-        "en": "Experience unforgettable moments in South Tyrol. Hiking, skiing, wellness and culinary delights await you in one of the most beautiful regions of the Alps.",
-        "it": "Vivete momenti indimenticabili in Alto Adige. Escursioni, sci, wellness e delizie culinarie vi aspettano in una delle regioni più belle delle Alpi."
+        "de": "Vom Falstaff-ausgezeichneten Gourmetrestaurant über 200 m Seeufer bis hin zu vielfältigen Aktivitäten in Kärnten – die See-Villa bietet Ihnen ein einzigartiges Urlaubserlebnis.",
+        "en": "From the Falstaff-awarded gourmet restaurant to 200 m of lakefront and diverse activities in Carinthia – the See Villa offers you a unique holiday experience.",
+        "it": "Dal ristorante gourmet premiato dal Falstaff ai 200 m di riva lacustre fino alle diverse attività in Carinzia – la See Villa vi offre un'esperienza di vacanza unica."
       },
       "items": [
         {
           "title": {
-            "de": "Restaurant & Terrasse",
-            "en": "Restaurant & Terrace",
-            "it": "Ristorante & Terrazza"
+            "de": "Falstaff-ausgezeichnete Kulinarik",
+            "en": "Falstaff-awarded Cuisine",
+            "it": "Cucina premiata dal Falstaff"
           },
           "description": {
-            "de": "Genießen Sie regionale Spezialitäten und internationale Küche auf unserer Sonnenterrasse mit Blick auf die Berge.",
-            "en": "Enjoy regional specialities and international cuisine on our sun terrace with mountain views.",
-            "it": "Gustate specialità regionali e cucina internazionale sulla nostra terrazza soleggiata con vista sulle montagne."
+            "de": "Genießen Sie feinste Küche aus regionalen Zutaten, modern interpretiert von Chefkoch Christian Unterzaucher – von Gourmetmenüs bis zum Frühstücksbuffet.",
+            "en": "Enjoy the finest cuisine made from regional ingredients, modernly interpreted by head chef Christian Unterzaucher – from gourmet menus to breakfast buffets.",
+            "it": "Godetevi la cucina più raffinata a base di ingredienti regionali, reinterpretata in chiave moderna dallo chef Christian Unterzaucher – dai menu gourmet al buffet della colazione."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
           "iconName": "ForkKnifeIcon"
         },
         {
           "title": {
-            "de": "Wellness & Spa",
-            "en": "Wellness & Spa",
-            "it": "Wellness & Spa"
+            "de": "200 m Seeufer & Parkanlage",
+            "en": "200 m Lakefront & Park",
+            "it": "200 m di Riva Lacustre e Parco"
           },
           "description": {
-            "de": "Entspannen Sie in unserem Wellnessbereich mit Sauna, Dampfbad und Behandlungsräumen.",
-            "en": "Relax in our wellness area with sauna, steam bath and treatment rooms.",
-            "it": "Rilassatevi nella nostra area wellness con sauna, bagno turco e sale trattamenti."
+            "de": "Unser traumhaft angelegter Privatpark mit 200 m direktem Seezugang und einer großzügigen Liegewiese lädt zur vollkommenen Entspannung am Millstätter See ein.",
+            "en": "Our beautifully landscaped private park with 200 m of direct lake access and a generous sunbathing lawn invites you to relax completely on Lake Millstatt.",
+            "it": "Il nostro parco privato magnificamente curato con 200 m di accesso diretto al lago e un ampio prato per il relax vi invita al completo relax sul Lago di Millstatt."
           },
-          "imageSrc": "/placeholder.svg",
-          "iconName": "FlowerLotusIcon"
+          "imageSrc": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "iconName": "SunIcon"
         },
         {
           "title": {
-            "de": "Bergerlebnis",
-            "en": "Mountain Experience",
-            "it": "Esperienza Montana"
+            "de": "Ski & Winterurlaub",
+            "en": "Ski & Winter Holidays",
+            "it": "Sci e Vacanze Invernali"
           },
           "description": {
-            "de": "Entdecken Sie die Dolomiten mit geführten Wanderungen, Skifahren und vielen weiteren Aktivitäten.",
-            "en": "Discover the Dolomites with guided hikes, skiing and many other activities.",
-            "it": "Scoprite le Dolomiti con escursioni guidate, sci e tante altre attività."
+            "de": "Erleben Sie Skivergnügen am Sportberg Goldeck: Kinder bis 14 fahren gratis, inkl. vergünstigtem Skipass, Skidepot und kostenlosem Shuttle-Bus.",
+            "en": "Experience skiing fun at the Goldeck mountain: children up to 14 ski free, including a discounted ski pass, ski depot and free shuttle bus.",
+            "it": "Vivete il divertimento sugli sci al Goldeck: i bambini fino a 14 anni sciano gratuitamente, incluso skipass scontato, deposito sci e navetta gratuita."
           },
-          "imageSrc": "/placeholder.svg",
+          "imageSrc": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "iconName": "SkiIcon"
+        },
+        {
+          "title": {
+            "de": "Historisches Schlosshotel",
+            "en": "Historic Castle Hotel",
+            "it": "Storico Schlosshotel"
+          },
+          "description": {
+            "de": "Spüren Sie den aristokratischen Glanz des Hauses aus dem Jahr 1884, das von der Familie Tacoli mit Herzblut und modernem Luxus weitergeführt wird.",
+            "en": "Feel the aristocratic splendour of the house dating back to 1884, lovingly continued by the Tacoli family with modern luxury.",
+            "it": "Sentite lo splendore aristocratico della dimora del 1884, portata avanti con passione dalla famiglia Tacoli con lusso moderno."
+          },
+          "imageSrc": "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+          "iconName": "StarIcon"
+        },
+        {
+          "title": {
+            "de": "Aktivurlaub in Kärnten",
+            "en": "Active Holidays in Carinthia",
+            "it": "Vacanze Attive in Carinzia"
+          },
+          "description": {
+            "de": "Wandern, Radfahren, Schwimmen oder Skifahren – die Region um den Millstätter See bietet Ihnen zu jeder Jahreszeit unvergessliche Erlebnisse.",
+            "en": "Hiking, cycling, swimming or skiing – the region around Lake Millstatt offers you unforgettable experiences in every season.",
+            "it": "Escursionismo, ciclismo, nuoto o sci – la regione intorno al Lago di Millstatt vi offre esperienze indimenticabili in ogni stagione."
+          },
+          "imageSrc": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
           "iconName": "MountainIcon"
+        },
+        {
+          "title": {
+            "de": "Familien herzlich willkommen",
+            "en": "Families Warmly Welcome",
+            "it": "Famiglie Benvenute"
+          },
+          "description": {
+            "de": "Die See-Villa ist ein ideales Reiseziel für Familien – mit speziellen Familienangeboten, Kinderermäßigungen und einer herzlichen Atmosphäre.",
+            "en": "The See Villa is the ideal destination for families – with special family packages, children's discounts and a warm atmosphere.",
+            "it": "La See Villa è la destinazione ideale per le famiglie – con pacchetti famiglia speciali, riduzioni per bambini e un'atmosfera calorosa."
+          },
+          "imageSrc": "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+          "iconName": "FamilyIcon"
         }
       ]
     },
@@ -173,14 +233,14 @@
         "it": "Impressioni"
       },
       "title": {
-        "de": "Entdecken Sie unser Hotel",
-        "en": "Discover Our Hotel",
-        "it": "Scoprite il Nostro Hotel"
+        "de": "Entdecken Sie die See-Villa",
+        "en": "Discover the See Villa",
+        "it": "Scoprite la See Villa"
       },
       "description": {
-        "de": "Werfen Sie einen Blick auf unsere Zimmer, den Wellnessbereich, das Restaurant und die atemberaubende Umgebung in den Dolomiten.",
-        "en": "Take a look at our rooms, wellness area, restaurant and the stunning surroundings in the Dolomites.",
-        "it": "Date un'occhiata alle nostre camere, all'area wellness, al ristorante e allo splendido paesaggio delle Dolomiti."
+        "de": "Lassen Sie sich von der Schönheit unseres historischen Schlosshotels am Millstätter See inspirieren – von den eleganten Zimmern bis zum traumhaften Seeufer.",
+        "en": "Let yourself be inspired by the beauty of our historic castle hotel on Lake Millstatt – from the elegant rooms to the stunning lakefront.",
+        "it": "Lasciatevi ispirare dalla bellezza del nostro storico Schlosshotel sul Lago di Millstatt – dalle camere eleganti alla splendida riva del lago."
       },
       "viewAll": {
         "de": "Alle Fotos ansehen",
@@ -193,10 +253,10 @@
           "en": "All",
           "it": "Tutte"
         },
-        "apartments-suites": {
-          "de": "Apartments & Suites",
-          "en": "Apartments & Suites",
-          "it": "Appartamenti & Suite"
+        "rooms": {
+          "de": "Zimmer",
+          "en": "Rooms",
+          "it": "Camere"
         },
         "wellness": {
           "de": "Wellness",
@@ -204,9 +264,9 @@
           "it": "Wellness"
         },
         "cuisine": {
-          "de": "Frühstück & Genuss",
-          "en": "Breakfast & Enjoyment",
-          "it": "Colazione & Piacere"
+          "de": "Küche",
+          "en": "Cuisine",
+          "it": "Cucina"
         },
         "experiences": {
           "de": "Erlebnisse",
@@ -215,28 +275,10 @@
         }
       },
       "categories": {
-        "apartments-suites": "apartments-suites",
+        "rooms": "rooms",
         "wellness": "wellness",
         "cuisine": "cuisine",
         "experiences": "experiences"
-      },
-      "highlightImages": {
-        "desktop": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ],
-        "mobile": [
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg",
-          "/placeholder.svg"
-        ]
       },
       "popup": {
         "title": {
@@ -250,87 +292,96 @@
           "it": "Chiudi galleria"
         }
       },
+      "highlightImages": {
+        "desktop": [
+          "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg"
+        ],
+        "mobile": [
+          "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+          "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg"
+        ]
+      },
       "images": [
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
           "alt": {
-            "de": "Hotel Außenansicht",
-            "en": "Hotel exterior",
-            "it": "Esterno dell'hotel"
-          },
-          "category": "other"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Zimmer 1",
-            "en": "Room 1",
-            "it": "Camera 1"
-          },
-          "category": "apartments-suites"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Zimmer 2",
-            "en": "Room 2",
-            "it": "Camera 2"
-          },
-          "category": "apartments-suites"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Wellness 1",
-            "en": "Wellness 1",
-            "it": "Wellness 1"
-          },
-          "category": "wellness"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Wellness 2",
-            "en": "Wellness 2",
-            "it": "Wellness 2"
-          },
-          "category": "wellness"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Restaurant 1",
-            "en": "Restaurant 1",
-            "it": "Ristorante 1"
-          },
-          "category": "cuisine"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Restaurant 2",
-            "en": "Restaurant 2",
-            "it": "Ristorante 2"
-          },
-          "category": "cuisine"
-        },
-        {
-          "src": "/placeholder.svg",
-          "alt": {
-            "de": "Erlebnisse 1",
-            "en": "Experiences 1",
-            "it": "Esperienze 1"
+            "de": "See-Villa am Millstätter See – Außenansicht",
+            "en": "See Villa on Lake Millstatt – exterior view",
+            "it": "See Villa sul Lago di Millstatt – vista esterna"
           },
           "category": "experiences"
         },
         {
-          "src": "/placeholder.svg",
+          "src": "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
           "alt": {
-            "de": "Erlebnisse 2",
-            "en": "Experiences 2",
-            "it": "Esperienze 2"
+            "de": "Elegantes Hotelzimmer mit Seeblick",
+            "en": "Elegant hotel room with lake view",
+            "it": "Camera d'albergo elegante con vista lago"
+          },
+          "category": "rooms"
+        },
+        {
+          "src": "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+          "alt": {
+            "de": "Gastgeber Federico und Valentina Tacoli",
+            "en": "Hosts Federico and Valentina Tacoli",
+            "it": "Ospitanti Federico e Valentina Tacoli"
           },
           "category": "experiences"
+        },
+        {
+          "src": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "alt": {
+            "de": "Parkanlage und Seezugang der See-Villa",
+            "en": "Park and lake access of the See Villa",
+            "it": "Parco e accesso al lago della See Villa"
+          },
+          "category": "wellness"
+        },
+        {
+          "src": "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+          "alt": {
+            "de": "Gourmetküche im Restaurant der See-Villa",
+            "en": "Gourmet cuisine at the See Villa restaurant",
+            "it": "Cucina gourmet nel ristorante della See Villa"
+          },
+          "category": "cuisine"
+        },
+        {
+          "src": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
+          "alt": {
+            "de": "Historische Villa mit Seeblick in Millstatt",
+            "en": "Historic villa with lake view in Millstatt",
+            "it": "Villa storica con vista lago a Millstatt"
+          },
+          "category": "experiences"
+        },
+        {
+          "src": "https://www.see-villa.eu/wp-content/uploads/2024/05/IMG_2817-scaled-800x540.jpg",
+          "alt": {
+            "de": "Suite mit Balkon und Seeblick",
+            "en": "Suite with balcony and lake view",
+            "it": "Suite con balcone e vista lago"
+          },
+          "category": "rooms"
+        },
+        {
+          "src": "https://www.see-villa.eu/wp-content/uploads/2023/06/federico-valentina.jpg",
+          "alt": {
+            "de": "Entspannung und Wellness am Millstätter See",
+            "en": "Relaxation and wellness on Lake Millstatt",
+            "it": "Relax e benessere sul Lago di Millstatt"
+          },
+          "category": "wellness"
         }
       ]
     },
@@ -341,16 +392,16 @@
         "it": "La Vostra Richiesta"
       },
       "title": {
-        "de": "Ihr perfekter Urlaub beginnt hier...",
-        "en": "Your Perfect Holiday Starts Here...",
-        "it": "La vostra vacanza perfetta inizia qui..."
+        "de": "Persönliches Angebot anfordern",
+        "en": "Request a Personal Offer",
+        "it": "Richiedete un'offerta personalizzata"
       },
       "description": {
-        "de": "Wir freuen uns auf Ihre Anfrage! Unser Team berät Sie gerne persönlich und erstellt Ihnen ein individuelles Angebot für Ihren Traumurlaub in Südtirol.",
-        "en": "We look forward to your enquiry! Our team will be happy to advise you personally and create a customised offer for your dream holiday in South Tyrol.",
-        "it": "Non vediamo l'ora di ricevere la vostra richiesta! Il nostro team sarà lieto di consigliarvi personalmente e creare un'offerta personalizzata per la vostra vacanza da sogno in Alto Adige."
+        "de": "Teilen Sie uns Ihre Wünsche mit – wir erstellen Ihnen innerhalb von 24 Stunden ein individuelles Angebot für Ihren Aufenthalt an der See-Villa.",
+        "en": "Share your wishes with us – we will create an individual offer for your stay at the See Villa within 24 hours.",
+        "it": "Comunicateci i vostri desideri – creeremo un'offerta individuale per il vostro soggiorno alla See Villa entro 24 ore."
       },
-      "backgroundImage": "/placeholder.svg",
+      "backgroundImage": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
       "form": {
         "roomType": {
           "label": {
@@ -458,9 +509,9 @@
           "it": "*Accetto l'informativa sulla privacy"
         },
         "responseTime": {
-          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot – wir freuen uns auf Sie!",
-          "en": "We will respond within 24 hours with your personalised offer – we look forward to welcoming you!",
-          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata – non vediamo l'ora di accogliervi!"
+          "de": "Wir melden uns innerhalb von 24 Stunden mit Ihrem persönlichen Angebot",
+          "en": "We will respond within 24 hours with your personalised offer",
+          "it": "Risponderemo entro 24 ore con la vostra offerta personalizzata"
         },
         "submit": {
           "de": "Jetzt Verfügbarkeit prüfen",
@@ -487,15 +538,15 @@
       },
       "title": {
         "de": "Was unsere Gäste sagen",
-        "en": "What Our Guests Say",
-        "it": "Cosa Dicono i Nostri Ospiti"
+        "en": "What our guests say",
+        "it": "Cosa dicono i nostri ospiti"
       },
       "description": {
-        "de": "Unsere Gäste schätzen die herzliche Atmosphäre, den erstklassigen Service und die atemberaubende Lage in den Dolomiten. Lesen Sie, was andere über ihren Aufenthalt bei uns berichten.",
-        "en": "Our guests appreciate the warm atmosphere, first-class service and stunning location in the Dolomites. Read what others have to say about their stay with us.",
-        "it": "I nostri ospiti apprezzano l'atmosfera calorosa, il servizio di prima classe e la posizione mozzafiato nelle Dolomiti. Leggete cosa dicono gli altri del loro soggiorno da noi."
+        "de": "Lassen Sie sich von den Erlebnissen unserer Gäste inspirieren und entdecken Sie, warum die See-Villa seit Generationen ein besonderer Ort am Millstätter See ist.",
+        "en": "Let yourself be inspired by the experiences of our guests and discover why the See Villa has been a special place on Lake Millstatt for generations.",
+        "it": "Lasciatevi ispirare dalle esperienze dei nostri ospiti e scoprite perché la See Villa è da generazioni un luogo speciale sul Lago di Millstatt."
       },
-      "image": "/placeholder.svg"
+      "image": "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg"
     },
     "faqs": {
       "badge": {
@@ -504,31 +555,31 @@
         "it": "Buono a Sapersi"
       },
       "title": {
-        "de": "Häufige Fragen",
+        "de": "Häufig gestellte Fragen",
         "en": "Frequently Asked Questions",
-        "it": "Domande frequenti"
+        "it": "Domande Frequenti"
       },
       "description": {
-        "de": "Hier finden Sie Antworten auf die häufigsten Fragen zu Ihrem Aufenthalt. Bei weiteren Fragen steht Ihnen unser Team gerne zur Verfügung.",
-        "en": "Here you will find answers to the most common questions about your stay. If you have any further questions, our team will be happy to help.",
-        "it": "Qui troverete le risposte alle domande più frequenti sul vostro soggiorno. Per ulteriori domande, il nostro team sarà lieto di aiutarvi."
+        "de": "Hier finden Sie Antworten auf die häufigsten Fragen rund um Ihren Aufenthalt in der See-Villa am Millstätter See.",
+        "en": "Here you will find answers to the most common questions about your stay at the See Villa on Lake Millstatt.",
+        "it": "Qui trovate le risposte alle domande più frequenti sul vostro soggiorno alla See Villa sul Lago di Millstatt."
       }
     },
     "offers": {
       "badge": {
-        "de": "Angebote",
-        "en": "Offers",
-        "it": "Offerte"
+        "de": "Aktuelle Angebote",
+        "en": "Current Offers",
+        "it": "Offerte Attuali"
       },
       "title": {
-        "de": "Unsere aktuellen Angebote",
-        "en": "Our Current Offers",
-        "it": "Le Nostre Offerte Attuali"
+        "de": "Ihr persönlicher Vorteil",
+        "en": "Your Personal Advantage",
+        "it": "Il Vostro Vantaggio Personale"
       },
       "description": {
-        "de": "Entdecken Sie unsere saisonalen Angebote für Ihren perfekten Urlaub in Südtirol – ob Wellness, Wandern, Skifahren oder kulinarische Erlebnisse.",
-        "en": "Discover our seasonal offers for your perfect holiday in South Tyrol – whether wellness, hiking, skiing or culinary experiences.",
-        "it": "Scoprite le nostre offerte stagionali per la vostra vacanza perfetta in Alto Adige – che sia wellness, escursioni, sci o esperienze culinarie."
+        "de": "Entdecken Sie unsere exklusiven Pakete – vom Familienski-Urlaub bis zum romantischen Wein- und Genussaufenthalt am Millstätter See.",
+        "en": "Discover our exclusive packages – from family ski holidays to a romantic wine and culinary stay on Lake Millstatt.",
+        "it": "Scoprite i nostri pacchetti esclusivi – dalle vacanze sciistiche in famiglia al soggiorno romantico di vino e cucina sul Lago di Millstatt."
       }
     },
     "rooms": {
@@ -538,14 +589,14 @@
         "it": "CAMERE & SUITE"
       },
       "title": {
-        "de": "Unsere Unterkünfte",
-        "en": "Our Accommodations",
-        "it": "I Nostri Alloggi"
+        "de": "Ihr Refugium am Millstätter See",
+        "en": "Your Retreat on Lake Millstatt",
+        "it": "Il Vostro Rifugio sul Lago di Millstatt"
       },
       "description": {
-        "de": "Komfortable Zimmer und Suiten mit Blick auf die Berge. Moderne Ausstattung und traditioneller Südtiroler Charme vereinen sich zu einem einzigartigen Wohnerlebnis.",
-        "en": "Comfortable rooms and suites with mountain views. Modern amenities and traditional South Tyrolean charm combine to create a unique living experience.",
-        "it": "Camere e suite confortevoli con vista sulle montagne. Comfort moderni e fascino tradizionale altoatesino si uniscono per un'esperienza abitativa unica."
+        "de": "Unsere Zimmer und Suiten verbinden historischen Charme mit modernem Komfort – viele mit direktem Seeblick und dem typischen Flair eines österreichischen Schlosshotels.",
+        "en": "Our rooms and suites combine historic charm with modern comfort – many with direct lake views and the typical flair of an Austrian castle hotel.",
+        "it": "Le nostre camere e suite combinano il fascino storico con il comfort moderno – molte con vista diretta sul lago e il tipico charme di uno Schlosshotel austriaco."
       },
       "tabs": {
         "all": {
@@ -564,7 +615,7 @@
           "it": "Suite"
         }
       },
-      "logoImage": "/placeholder.svg"
+      "logoImage": "https://www.see-villa.eu/wp-content/uploads/2017/07/see-villa-logo-std.png"
     }
   }
 }

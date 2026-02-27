@@ -1,14 +1,14 @@
 import type { Metadata } from "next";
-import { Montserrat } from "next/font/google";
+import { Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/react";
 import { WipScreen } from "@/components/wip-screen";
 import { headers } from "next/headers";
 import { HOTEL_CONFIG, SEO_CONFIG, TECHNICAL_CONFIG } from "@/hotel-config";
 
-const montserrat = Montserrat({
+const playfair-display = Playfair_Display({
   subsets: ["latin"],
-  variable: "--font-montserrat",
+  variable: "--font-playfair-display",
   display: "swap",
 });
 
@@ -51,18 +51,18 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  icons: {
-    icon: [
+   icons: {
+    
+  icon: [
       {
-        url: "/icon.png",
+        url: "https://www.see-villa.eu/wp-content/uploads/2017/07/favicon.ico",
         media: "(prefers-color-scheme: light)",
       },
       {
-        url: "/icon.png",
+        url: "https://www.see-villa.eu/wp-content/uploads/2017/07/favicon.ico",
         media: "(prefers-color-scheme: dark)",
       },
-    ],
-  },
+    ]}
 };
 
 export default async function RootLayout({
@@ -87,7 +87,7 @@ export default async function RootLayout({
         {/* End Google Tag Manager */}
       </head>
       <body
-        className={`${montserrat.variable} font-body text-foreground bg-background antialiased`}
+        className={`${playfair-display.variable} font-body text-foreground bg-background antialiased`}
       >
         {TECHNICAL_CONFIG.analytics.gtmId && (
           <iframe
@@ -99,10 +99,7 @@ export default async function RootLayout({
         )}
         <WipScreen>{children}</WipScreen>
         <Analytics />
-        {/* <ScriptsLoader /> */}
       </body>
     </html>
   );
 }
-
-// Trigger deployment

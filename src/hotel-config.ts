@@ -2,62 +2,62 @@
 // HOTEL_CONFIG - Core hotel identity & contact
 // ============================================
 export const HOTEL_CONFIG = {
-  name: "Hotel Name",
-  shortName: "Hotel",
+  name: "See Villa Tacoli",
+  shortName: "See Villa",
   type: "Hotel" as const,
 
   location: {
-    street: "Musterstraße 1",
-    postalCode: "IT-39000",
-    city: "Stadt",
-    region: "Südtirol",
-    country: "Italien",
+    street: "Seestraße 68",
+    postalCode: "9872",
+    city: "Millstatt",
+    region: "Kärnten",
+    country: "Österreich",
     coordinates: {
-      lat: 46.5,
-      lng: 11.5,
+      lat: 46.8028,
+      lng: 13.5783,
     },
   },
 
   contact: {
-    email: "info@example.com",
+    email: "kontakt@see-villa.at",
     phone: {
-      main: { display: "+39 0000 000 000", href: "tel:+390000000000" },
+      main: { display: "+43 (0) 4766-2102", href: "tel:+4347662102" },
       whatsapp: {
         display: "",
         href: "",
       },
     },
     website: {
-      main: "https://www.example.com",
-      booking: "",
+      main: "https://www.see-villa.eu",
+      booking: "https://www.see-villa.eu/buchung",
     },
   },
 
   social: {
-    facebook: "",
-    instagram: "",
+    facebook: "https://www.facebook.com/seevillamillstatt",
+    instagram: "https://www.instagram.com/seevillamillstatt",
     youtube: undefined,
   },
 
   legal: {
     taxId: "",
     imprint: {
-      de: "",
-      en: "",
-      it: "",
+      de: "https://www.see-villa.eu/impressum",
+      en: "https://www.see-villa.eu/impressum",
+      it: "https://www.see-villa.eu/impressum",
     },
     privacy: {
-      de: "",
-      en: "",
-      it: "",
+      de: "https://www.see-villa.eu/datenschutz",
+      en: "https://www.see-villa.eu/datenschutz",
+      it: "https://www.see-villa.eu/datenschutz",
     },
   },
 
   branding: {
     logo: {
-      main: "/full-logo.png",
-      mobile: "/full-logo-mobile.svg",
-      alt: "/placeholder.svg",
+      main: "https://www.see-villa.eu/wp-content/uploads/2017/07/see-villa-logo-std.png",
+      mobile: "https://www.see-villa.eu/wp-content/uploads/2017/07/see-villa-logo-std.png",
+      alt: "https://www.see-villa.eu/wp-content/uploads/2017/07/see-villa-logo-std.png",
     },
     dimensions: {
       mobile: { width: 132, height: 74 },
@@ -67,7 +67,7 @@ export const HOTEL_CONFIG = {
 
   copyright: {
     year: 2026,
-    holder: "Hotel Name",
+    holder: "See Villa Tacoli",
   },
 };
 
@@ -76,18 +76,18 @@ export const HOTEL_CONFIG = {
 // ============================================
 export const BOOKING_CONFIG = {
   bookingUrls: {
-    de: "",
-    en: "",
-    it: "",
+    de: "https://www.see-villa.eu/buchung",
+    en: "https://www.see-villa.eu/buchung",
+    it: "https://www.see-villa.eu/buchung",
   },
 
   dates: {
-    minBookingDate: "2026-02-21",
+    minBookingDate: "2026-03-06",
   },
 
   checkIn: {
     from: "14:00",
-    to: "",
+    to: "20:00",
   },
 
   checkOut: {
@@ -95,7 +95,7 @@ export const BOOKING_CONFIG = {
   },
 
   touristTax: {
-    amount: 3.5,
+    amount: 2.5,
     currency: "EUR",
     per: "person/day",
     exemptUnderAge: 14,
@@ -112,7 +112,7 @@ export const BOOKING_CONFIG = {
   },
 
   policies: {
-    pets: { allowed: false, fee: 0, per: "" },
+    pets: { allowed: true, fee: 15, per: "night" },
     additionalPerson: { fee: 0, per: "night" },
     breakfastOnlyDeduction: { amount: 0, per: "person" },
   },
@@ -122,7 +122,7 @@ export const BOOKING_CONFIG = {
 // TECHNICAL_CONFIG - Dev/deployment settings
 // ============================================
 export const TECHNICAL_CONFIG = {
-  projectId: "hotel-template",
+  projectId: "A1032",
 
   urls: {
     production: "https://example.com",
@@ -134,9 +134,9 @@ export const TECHNICAL_CONFIG = {
   },
 
   email: {
-    from: "info@example.com",
-    replyTo: "info@example.com",
-    transactional: "hotel@updates.alpinads.app",
+    from: "noreply@example.com",
+    replyTo: "kontakt@see-villa.at",
+    transactional: "see-villa-tacoli@updates.alpinads.app",
     assetsBaseUrl: "https://example.com",
   },
 
@@ -151,45 +151,33 @@ export const TECHNICAL_CONFIG = {
 // ============================================
 export const SEO_CONFIG = {
   baseUrl: "https://example.com",
-  ogImage: "/placeholder.svg",
+  ogImage: "https://www.see-villa.eu/wp-content/uploads/2019/07/hausundsee_RGB-800x540.jpg",
 
   home: {
     de: {
-      title: "Hotel Name - Urlaub in Südtirol",
-      description:
-        "Willkommen im Hotel Name in Südtirol. Genießen Sie Ihren Urlaub mit Wellness, Frühstück und traumhaftem Blick auf die Dolomiten.",
-      ogTitle: "Hotel Name - Urlaub in Südtirol",
-      ogDescription:
-        "Hotel Name: Ihr Urlaubsziel in Südtirol mit Wellness und Frühstück.",
+      title: "See-Villa Tacoli – 4-Sterne Schlosshotel am Millstätter See | Kärnten",
+      description: "Das 4-Sterne Schlosshotel See-Villa Tacoli in Millstatt/Kärnten: 200 m Seeufer, Falstaff-ausgezeichnetes Restaurant, historisches Ambiente & moderne Eleganz seit 1884.",
+      ogTitle: "See-Villa Tacoli – Ihr Schlosshotel am Millstätter See",
+      ogDescription: "Genießen Sie Ruhe, Kulinarik und aristokratischen Glanz in unserem 4-Sterne-Hotel direkt am Millstätter See in Kärnten. Jetzt anfragen!",
       ogLocale: "de_DE",
     },
     en: {
-      title: "Hotel Name - Holiday in South Tyrol",
-      description:
-        "Welcome to Hotel Name in South Tyrol. Enjoy your holiday with wellness, breakfast and stunning views of the Dolomites.",
-      ogTitle: "Hotel Name - Holiday in South Tyrol",
-      ogDescription:
-        "Hotel Name: Your holiday destination in South Tyrol with wellness and breakfast.",
+      title: "See Villa Tacoli – 4-Star Castle Hotel on Lake Millstatt | Carinthia",
+      description: "The 4-star castle hotel See Villa Tacoli in Millstatt/Carinthia: 200 m of lakefront, Falstaff-awarded restaurant, historic ambience & modern elegance since 1884.",
+      ogTitle: "See Villa Tacoli – Your Castle Hotel on Lake Millstatt",
+      ogDescription: "Enjoy tranquillity, fine dining and aristocratic splendour at our 4-star hotel directly on Lake Millstatt in Carinthia. Enquire now!",
       ogLocale: "en_US",
     },
     it: {
-      title: "Hotel Name - Vacanza in Alto Adige",
-      description:
-        "Benvenuti all'Hotel Name in Alto Adige. Godetevi la vostra vacanza con wellness, colazione e vista mozzafiato sulle Dolomiti.",
-      ogTitle: "Hotel Name - Vacanza in Alto Adige",
-      ogDescription:
-        "Hotel Name: La vostra destinazione di vacanza in Alto Adige con wellness e colazione.",
+      title: "See Villa Tacoli – Hotel 4 Stelle sul Lago di Millstatt | Carinzia",
+      description: "L'hotel castello 4 stelle See Villa Tacoli a Millstatt/Carinzia: 200 m di riva, ristorante premiato dal Falstaff, atmosfera storica ed eleganza moderna dal 1884.",
+      ogTitle: "See Villa Tacoli – Il Vostro Hotel Castello sul Lago di Millstatt",
+      ogDescription: "Godetevi relax, cucina raffinata e splendore aristocratico nel nostro hotel 4 stelle direttamente sul Lago di Millstatt in Carinzia. Richiedi ora!",
       ogLocale: "it_IT",
     },
   },
 
-  keywords: [
-    "Hotel Südtirol",
-    "Urlaub Dolomiten",
-    "Holiday South Tyrol",
-    "Vacanza Alto Adige",
-    "Wellness Südtirol",
-  ],
+  keywords: ["See Villa Millstatt","Hotel Millstätter See","Schlosshotel Kärnten","4 Sterne Hotel Kärnten","Urlaub Millstatt","Hotel am See Österreich","Falstaff Restaurant Kärnten","Familienurlaub Millstätter See","Skiurlaub Goldeck","Wellnessurlaub Kärnten","See Villa Tacoli","Hotel Seeblick Kärnten"],
 };
 
 // ============================================
@@ -270,7 +258,7 @@ export const hotelProfile: HotelProfile = {
     privacyBaseUrl: HOTEL_CONFIG.legal.privacy.de,
   },
   credits: { alpinAdsUrl: TECHNICAL_CONFIG.credits.agencyUrl },
-  logo: {
+   logo: {
     src: HOTEL_CONFIG.branding.logo.main,
     mobileSrc: HOTEL_CONFIG.branding.logo.mobile,
     mobile: HOTEL_CONFIG.branding.dimensions.mobile,
